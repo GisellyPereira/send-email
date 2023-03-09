@@ -48,7 +48,7 @@ function App() {
         
         <input 
           className="input"
-          type="text"
+          type="email"
           placeholder="Digite seu email"
           onChange={(e) => setEmail(e.target.value)}
           value={email}
