@@ -1,6 +1,6 @@
 
 .container{
-  background-image: url("file:///home/giselly/Imagens/pexels-felix-mittermeier-1146134.jpg");
+  background-image: url("file:///home/giselly/Imagens/Blue%20Purple%20Circle%20Gradient%20Business%20Linktree%20Background.png");
   background-size: cover;
   min-height: 100vh;
   display: flex;
@@ -17,6 +17,9 @@
 
 .title{
   margin-bottom: 20px;
+  font-size: 40px;
+  font-family: cursive;
+  text-align: center;
 }
 
 .form{
@@ -29,30 +32,34 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
-
+.label{
+  font-size: 23px;
+  font-family: cursive;
+  margin-bottom: 8px;
+}
 .input{
+  color: #FFF;
   outline: none;
   margin-bottom: 14px;
   height: 34px;
   border-radius: 4px;
   border: 0;
   padding: 0 8px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.021);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  color: #FFF;
-  font-family: cursive;
-  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .input::placeholder{
   color: #FFF;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 17px;
   font-family: cursive;
 }
 
 .textarea{
+  color: #FFF;
   outline: none;
   margin-bottom: 14px;
   border-radius: 4px;
@@ -60,33 +67,34 @@
   padding: 8px;
   height: 94px;
   resize: none;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.021);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  color: #FFF;
-  font-family: cursive;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .textarea::placeholder{
   color: #FFF;
-  font-size: 20px;
+  font-size: 17px;
   font-family: cursive;
-  font-weight: 700;
 }
 
 .button{
-  height: 34px;
+  outline: none;
+  height: 40px;
   border-radius: 4px;
   border: 0;
   color: #FFF;
   cursor: pointer;
-  background-color: #2b1a88;
+  background: #913be05b;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   font-size: 18px;
   transition: background-color, transform 0.8s;
-  font-family: cursive;
-  font-weight: bold;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .button:hover{
-  background-color: #342397;
+  background: #a659ee5b;
   transform: scale(1.01);
 }

@@ -36,9 +36,10 @@ function App() {
   return (
     <div>
     <div className="container">
-      <h1 className="title">CONTATO</h1>
 
       <form className="form" onSubmit={sendEmail}>
+        <h1 className="title">CONTATO</h1>
+        <label className="label">Nome</label>
         <input 
           className="input"
           type="text"
@@ -47,6 +48,7 @@ function App() {
           value={name}
         />
         
+        <label className="label">E-mail</label>
         <input 
           className="input"
           type="email"
@@ -55,6 +57,7 @@ function App() {
           value={email}
         />
 
+        <label className="label">Mensagem</label>
         <textarea 
           className="textarea"
           placeholder="Digite sua mensagem..."
