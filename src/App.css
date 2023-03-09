@@ -1,20 +1,30 @@
 
 .container{
+  background-image: url("file:///home/giselly/Imagens/pexels-felix-mittermeier-1146134.jpg");
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #121212;
-  color: #FFF;
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-family: cursive;
   padding: 14px;
+  width: 100%;
+  height: 100%;
 }
 
 .title{
-  margin-bottom: 14px;
+  margin-bottom: 20px;
 }
 
 .form{
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 4px;
+  padding: 35px;
   max-width: 600px;
   width: 100%;
   display: flex;
@@ -22,20 +32,45 @@
 }
 
 .input{
+  outline: none;
   margin-bottom: 14px;
   height: 34px;
   border-radius: 4px;
   border: 0;
   padding: 0 8px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #FFF;
+  font-family: cursive;
+  font-size: 18px;
+}
+.input::placeholder{
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: cursive;
 }
 
 .textarea{
+  outline: none;
   margin-bottom: 14px;
   border-radius: 4px;
   border: 0;
   padding: 8px;
   height: 94px;
   resize: none;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #FFF;
+  font-family: cursive;
+}
+.textarea::placeholder{
+  color: #FFF;
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: 700;
 }
 
 .button{
@@ -44,12 +79,14 @@
   border: 0;
   color: #FFF;
   cursor: pointer;
-  background-color: #481b72;
+  background-color: #2b1a88;
   font-size: 18px;
   transition: background-color, transform 0.8s;
+  font-family: cursive;
+  font-weight: bold;
 }
 
 .button:hover{
-  background-color: #5e1e9b;
+  background-color: #342397;
   transform: scale(1.01);
 }

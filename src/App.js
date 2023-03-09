@@ -34,8 +34,9 @@ function App() {
   }
 
   return (
+    <div>
     <div className="container">
-      <h1 className="title">Contato</h1>
+      <h1 className="title">CONTATO</h1>
 
       <form className="form" onSubmit={sendEmail}>
         <input 
@@ -64,6 +65,7 @@ function App() {
         <input className="button" type="submit" value="Enviar" />
       </form>
 
+    </div>
     </div>
   );
 }
