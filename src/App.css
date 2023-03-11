@@ -149,5 +149,55 @@
     margin-top: 3rem;
     margin-bottom: 3rem;
   }
- 
+  .contain-flex{
+    background: 0;
+    border-radius: 0;
+    box-shadow: 0px 0px 0px 0px;
+  
+  }
+  .form{
+    width: 100%;
+  }
+  .button{
+    background:#c04a6e;
+    color: #FFF;
+    padding: 20px 0px 40px 0px;
+  }
+  .button:hover{
+   color: #FFF;
+   background: #eb7195;
+  }
+  .input{
+    background: rgb(216, 214, 214);
+  }
+  .textarea{
+    background:  rgb(216, 214, 214);
+  }
+  .input:focus{
+    border-bottom: #c04a6e 3px solid;
+  }
+  .textarea:focus{
+    border-bottom: #c04a6e 3px solid;
+  }
+  .title{
+    color: #c04a6e;
+  }
+  .text{
+    color: #fff;
+  }
+}
+
+@media (max-width: 470px) {
+  .input{
+    width: 330px;
+  }
+  .textarea{
+    width: 330px;
+  }
+  .button{
+    width: 330px;
+  }
+  .text{
+    font-size: 15px;
+  }
 }
